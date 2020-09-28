@@ -1,0 +1,33 @@
+package findNumber;
+
+import java.util.Scanner;
+
+public class tea {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//1.변수의 선언
+		  int r_nym, u_num; //랜덤숫자
+		  boolean clear;
+		  
+		  clear = false;
+		  
+		//2.random숫자 뽑기(1~100)
+		  r_nym= (int)(Math.random()*100)+1;
+		  System.out.println("r_num"+r_nym);
+		  
+		  
+		  
+		//----------------------loop구간 반복(10회 반복)
+		//3.유저의 입력
+		
+			
+		  
+		//4.판정(크다/작다)
+		
+
+			
+			}
+
+}

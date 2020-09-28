@@ -1,0 +1,68 @@
+package whileclass;
+
+public class mainclass {
+
+	public static void main(String[] args) {
+		/*
+		   
+		   loop
+		      for 
+		            반복문                조건이 맞아야 탈출
+		      for(초기화 ; 조건식; 연산식){
+		                   처리
+                }
+               
+              while <-for문 보다 무한루프 가능성 높음
+                        
+                        변수의 선언
+                        초기화
+             while(조건식){        if(조건식)
+                                   처리
+                                   연산식
+                 }       		  
+		 */
+
+		int w;
+		w = 0;
+		while(w<10) {
+			System.out.println("w="+w);
+			w++;
+		}
+		/*
+		w = 0;
+		while(true){
+			System.out.println("w="+w);
+			w++;
+		}
+		*/
+		
+		
+		/*
+		 initialize (초기화)
+		 w = 0
+		 
+		 loop(순환)
+		 while(true){
+		 
+		 }
+		 
+		 release(해방)
+		 
+		 */
+		
+		// 10명의 데이터를 입력 받도록 한다.
+		//Array : 같은 자료형 변수의 묶음
+		 int arrNum[] = new int[10]; //0-9
+		 System.out.println(arrNum.length);
+		 
+		 for(int i =0; i<10; i++) {
+			 System.out.println("i="+i);
+		 }
+	  
+		
+		
+		
+		
+	}
+
+}

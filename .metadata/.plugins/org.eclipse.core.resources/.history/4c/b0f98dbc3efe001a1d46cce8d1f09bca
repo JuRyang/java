@@ -1,0 +1,46 @@
+package semppro;
+
+import java.util.Scanner;
+
+public class mainclass {
+
+	public static void main(String[] args) {
+
+	Scanner scan = new Scanner(System.in);
+	
+		/*
+		    성적관리 프로그램
+		   1과목 성적 
+		      총점 (합계)
+		      평균 (평균 -bouble)
+		      최고 점수 (최대값)
+		      최소 점수 (최소값)
+		      
+		   
+		 */
+
+		//1. 몇몇의 학생의 성적을 입력?
+		int i; // 학생의 수 
+		System.out.print("몇명의 학생의 수의 성적을 입력 = ");
+		i = scan.nextInt();
+		System.out.println("i:"+i);
+		
+	    //2. 학생 수에 맞게 배열 확보
+		    int arraylang[] = new int [i];
+		    
+		    System.out.println("학생 수"+arraylang);
+
+		
+		
+		//3. 학생 수에 맞게 성적 입력
+		
+		
+		//4. 총점을 구한다
+		//5. 평균을 구한다
+		//6. 최대값
+		//7. 최소값
+		
+		//8. 결과출력
+	}
+
+}

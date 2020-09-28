@@ -1,0 +1,51 @@
+
+public class MainClass6 {
+
+	public static void main(String[] args) {
+		/*
+		                                                           우선순위
+		 boolean         1 byte           낮음
+		 
+		 byte            1 byte 
+		 short           2 byte
+		 int             4 byte
+		 long            8 byte
+		 
+		 
+		 float           4 byte
+		 double          8 byte           높음
+
+		 
+		 자료형의 변환(auto, cast)
+		 
+		 */
+		
+		 // 자동 자료형 변환
+		 short sh = 12345;  // 2 byte
+		 int i;             // 4 byte
+		 
+		 i = sh;            // 자동 형변환
+		 System.out.println("i = " + i);
+		 
+		 // 강제 자료형 변환 
+		 i = 1234567;         // 범위의 값이 넘어가면 형변환이 안된다.
+		 sh = (short)i; 
+		 
+		 System.out.println("sh = " + sh);
+
+		 long l = 123456789L;
+		 float f = l;
+		 double d = l;
+		 
+		 System.out.println("f = " + f);
+		 System.out.println("d = " + d);
+		 
+		 
+		 
+		 
+		 
+		 
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package forclass;
+
+public class test {
+
+	public static void main(String[] args) {
+		// 1~ 100사이에 있는 숫자 중 짝수들의 합, 홀수들의 합을 구하라.
+		
+		int sum = 0;
+		for (int i =0; i <=100; i++) {
+			sum = sum + i;
+			
+		}
+		System.out.println("sum;"+sum);
+
+	}
+
+}

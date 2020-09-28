@@ -1,0 +1,77 @@
+package ifclass;
+
+public class mainClass {
+
+	public static void main(String[] args) {
+		/*
+		    제어문(연습 많이 하기 )
+		    
+		    조건문
+		     if
+		     else
+		     
+		     if
+		     else if
+		     
+		     if
+		     else if
+		     else if
+		     else
+		     
+		     switch
+		     
+		     
+		   
+		    
+		    순환문
+		    
+		    for 
+		    
+		    foreach
+		    
+		    while
+		    
+		    do while 
+		                break
+		                continue
+		                
+		    
+		    
+		 */
+		
+		/*
+		       논리연산자 (ture/false)
+            && AND
+            || OR
+            ! NOT
+            
+                    부등호
+            > < >= <= ==  != 
+            
+            형식
+            if(조건(true)){
+                          처리
+            }
+           
+		 */
+		
+		int number = 5;
+		
+		if(number > 0) {
+			System.out.println("nember는 0보다 큽니다.");
+			
+		}
+		
+		if(number > 5) {
+			System.out.println("nember는 5보다 큽니다.");
+			
+			
+		}
+		
+		
+		
+		
+
+	}
+
+}

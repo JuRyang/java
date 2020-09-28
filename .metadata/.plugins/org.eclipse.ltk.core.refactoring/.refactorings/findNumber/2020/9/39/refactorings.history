@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;findNumber.tea.java&apos; to &apos;teac.java&apos;&#x0D;&#x0A;- Original project: &apos;findNumber&apos;&#x0D;&#x0A;- Original element: &apos;findNumber.tea.java&apos;&#x0D;&#x0A;- Renamed element: &apos;findNumber.teac.java&apos;" description="Rename compilation unit &apos;tea.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;findNumber{tea.java" name="teac.java" references="false" stamp="1600927968410" version="1.0"/>
+</session>

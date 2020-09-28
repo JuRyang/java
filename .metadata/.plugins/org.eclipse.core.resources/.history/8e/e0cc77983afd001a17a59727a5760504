@@ -1,0 +1,73 @@
+
+public class mainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		  Array : 배열 == 변수들(Variables)
+		                 같은 자료형 변수들의 묶음.
+		                 
+		 목적 : 같은 목적의 다수의 변수를 관리하기 위함
+		 접근 요소는 번호 (index)  
+		                   
+		 형식 : 
+		     자료형 배열변수명[] = new 자료형[배열의 총 수];
+		     자료형 []배열변수명 = new 자료형[배열의 총 수];
+		     자료형[] 배열변수명 = new 자료형[배열의 총 수];
+		     int arrVar[] = new int [5]; 배열의 총수는  내가 정해주는 것 (5 = lang1~5 변수를 만드는 것 )
+		                                            동적할당, 정적할당
+		     char arrChar[] = new char [10];
+		     double[] arrDou = new double[5];
+		     char *arrChar[] = new char [10];
+		     
+		      int arrVar[] = new int [5]; //   0~4 번지
+		                                       index number
+		      arrVar[0] = 90; 
+		      arrVar[1] = 85;
+		      arrVar[2] = 90;  
+		               
+		      arrVar[index number] = 값
+		                                           
+		     
+		 */
+		
+		// 5명 학생의 국어점수 총점,평균
+		int lang1, lang2, lang3, lang4,lang5;
+		
+		lang1 = 90;
+		lang2 = 85;
+		lang3 = 100;
+		lang4 = 95;
+		lang5 = 75;
+
+		int sum = 0;
+		sum = lang1 + lang2 +lang3 +lang4 + lang5;
+		
+		double avg = 0;
+		avg = (double)sum / 5;
+		
+		//int arraylang[] = new int[5]; 밑에와 같은 방법
+		
+		
+		  int arraylang[];
+		  arraylang= new int[5]; //동적할당(참조)
+		  /*System.out.println("arraylang:"+arraylang); // 주소 값 출력
+		  System.out.println("arraylang[0]:"+arraylang[0]); //자동적으로 0으로 할당
+		  */
+		  
+		  
+		  arraylang[0] = 90;
+		  arraylang[1] = 85;
+		  arraylang[2] = 100;
+		  arraylang[3] = 95;
+		  arraylang[4] = 75;
+		  
+		  System.out.println("arraylang[0]:"+arraylang[0]);
+		  
+		  
+		
+
+	}
+
+}

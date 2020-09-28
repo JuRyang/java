@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class mainClass {
+
+	public static void main(String[] args) {
+		
+		// 입력 - console에 입력하는 작업
+		Scanner scan = new Scanner(System.in);
+		
+		// boolean
+		boolean b; // true/false
+		System.out.print("b =");
+		b = scan.nextBoolean();
+		System.out.println("b = "+b);
+		
+
+	}
+
+}

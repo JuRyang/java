@@ -1,0 +1,41 @@
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// 변수의 선언
+		String name;
+		int age;
+		boolean lady;
+		String phone;
+		double height;
+		String address;
+		
+		System.out.println("=================================================================");
+		System.out.println("\\\tname\tage\tlady\tphone\theight\taddress\t\\");
+		System.out.println("=================================================================");
+
+		
+		
+		// 변수의 대입 
+		name = "홍길동";
+		age = 20;
+		lady = false;
+		phone = "010-111-2222";
+		height = 175.12;
+		address = "경기도";
+		
+		// 출력
+		System.out.println("\\\t" + name + "\t" + age + "\t" + lady + "\t" + phone + "\t" + height + "\t" + address + "\t\\");
+		
+		
+		
+		
+       // 변수의 대입
+		
+		// 출력
+		
+		
+
+	}
+
+}

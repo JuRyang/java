@@ -1,0 +1,28 @@
+
+public class MainClass4 {
+
+	public static void main(String[] args) {
+    // 논리 연산자(true/false)
+	/*
+	 제어문과 같이 사용(if, for, while)
+	 && AND 연산       그리고라는 뜻. 둘 다 참일 경우에 사용. -> true
+	 || OR  연산        또는             두 가지 중에 하나만 참일 경우이거나 둘 다 참일 경우. -> true
+	 !  NOT 연산        ~이 아닌        반대의 값
+	 
+	 
+	 int a = 3, b = 1;
+	 a > b
+	 a < b
+	 a >= b  부등호 기호는 항상 앞에 옴
+	 a <= b 
+	 a == b =하나면 쓰면 대입 연산자가 되므로 2개를 써야 함
+	 a != b 
+	 */
+		
+		
+		int num = 0;
+		System.out.println("결과:" + (num>0));
+		System.out.println("결과:" + (num>=0));
+	}
+
+}

@@ -1,0 +1,37 @@
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		/*
+		  Operator : 연산자
+		  
+		  + - *  / % = 
+		  
+		  % : 나머지
+		 
+		 */
+		
+		int num1, num2;
+		int result;
+		
+		num1 = 23;
+		num2 = 12;
+		
+		// num1 * num2 = result;
+		
+		result = num1 * num2;
+		System.out.println(num1 + "*" + num2 + "=" + result);
+		
+		// %
+		
+		num1 = 10;
+		num2 = 2;
+		result = num1 / num2;
+		System.out.println(num1 + "/" + num2 + "=" + result);
+		
+		result = num1 % num2;
+		System.out.println(num1 + "%" + num2 + "=" + result);
+
+	}
+
+}

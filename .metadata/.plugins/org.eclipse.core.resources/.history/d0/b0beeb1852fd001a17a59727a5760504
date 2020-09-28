@@ -1,0 +1,45 @@
+package switchclass;
+
+public class mainClass {
+
+	public static void main(String[] args) {
+		/*
+		    switch : case 분기
+		                      값이 명확해야 한다.
+		                      범위를 지정할 수 없다. < > <= >=
+		                      부정한 값은 사용 불가.
+		                      실수도 사용 불가.
+		             
+		                      
+		     형식
+		     switch (변수){
+		        case 값:
+		                       처리1
+		             break;
+		             case 값2:
+		                      처리2
+		             break;
+		             :
+		           default:    == else랑 동일 <- 처리가 안되었다 하면 해야하지만 처리가 되면 생략 가능
+		                      처리
+		                      }
+		            */
+		
+		int number = 1;
+		
+		switch(number) {
+		     case 0:
+		    	 System.out.println("number = 0");
+		    	 break;
+		     case 1:
+		    	 System.out.println("number = 1");
+		    	 break;
+		     case 3:
+		    	 System.out.println("number = 3");
+		    	 break;
+		    	 
+		}
+
+	}
+
+}

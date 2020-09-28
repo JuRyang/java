@@ -1,0 +1,58 @@
+package findNumber;
+
+import java.util.Scanner;
+
+public class tea {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  Scanner scan = new Scanner(System.in);
+		//1.변수의 선언
+		  int r_num, u_num; //랜덤숫자
+		  boolean clear;
+		  String s_num; // 선언해줬으니 문자 넣어도 에러 안남 
+		  
+		  
+		  clear = false;
+		  
+		//2.random숫자 뽑기(1~100)
+		  r_num= (int)(Math.random()*100)+1;
+		  System.out.println("r_num:"+r_num);
+		  
+		  boolean b = false;
+		  
+		  
+		//----------------------loop구간 반복(10회 반복)
+		//3.유저의 입력
+		  while(true) {
+			  b= false;
+		  
+		System.out.println("숫자입력=");
+			//u_num = scan.nextInt();
+		 s_num = scan.next(); 
+		 
+		 //System.out.println(s_num.length()); //문자랑 숫자랑 구분하기 위해 문자를 넣으면 문자 길이 만큼 숫자 출력
+		   for (int i = 0; i< s_num.length(); i++) {
+			   char c = s_num.charAt(i);
+			   // System.out.println("c="+c); //한글자씩 출력, 왜 이렇게 해?? 숫자가 아닌 값이 분류
+			   if(c !='0'&&c !='1'&& c !='2'&& 
+				   c !='3'&&c !='4'&&c !='5'&&c !='6'&&c !='7'&&c !='8'&&
+				   c !='9'){
+					System.out.println("정상적인 숫자를 입력해주십시오");   
+					b = true;
+				   break;
+				   }
+		   }
+		   
+		   if(b== false) { //문제없음
+			 //  System.out.println("문제없이 입력함");
+			   break;
+		   }
+		//4.판정(크다/작다)
+		
+
+			
+			}
+
+}
+}

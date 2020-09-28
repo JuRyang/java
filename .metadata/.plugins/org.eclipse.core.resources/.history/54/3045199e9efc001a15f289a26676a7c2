@@ -1,0 +1,62 @@
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		/*
+		  Operator : 연산자
+		  
+		  + - *  / % = 
+		  
+		  % : 나머지
+		 
+		 */
+		
+		int num1, num2;
+		int result;
+		
+		num1 = 23;
+		num2 = 12;
+		
+		// num1 * num2 = result;
+		
+		result = num1 * num2;
+		System.out.println(num1 + "*" + num2 + "=" + result);
+		
+		// %
+		
+		num1 = 10;
+		num2 = 0;
+		result = num1 / num2;
+		System.out.println(num1 + "/" + num2 + "=" + result);
+		
+		result = num1 % num2;
+		System.out.println(num1 + "%" + num2 + "=" + result);
+		
+		
+		//increment(증가연산자), decrement(가감연산자)
+		int n;
+		n = 0;
+		System.out.println("n = "+n);
+		n = n +1;
+		System.out.println("n = " + n);
+		
+		n = 0;
+		System.out.println("n = " + n);
+		n ++;
+		System.out.println(" n = " + n);
+		++n;
+		System.out.println(" n = " + n);
+
+		n--;
+		System.out.println(" n = " + n);
+        --n;
+		System.out.println(" n = " + n);
+
+
+	}
+
+}
+
+
+
+

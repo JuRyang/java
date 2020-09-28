@@ -1,0 +1,16 @@
+package forclass;
+
+public class etete {
+
+	public static void main(String[] args) {
+		
+		for(int i =0; i<7; i++) { //5열
+			for(int j= 0; j<5; j++ ) {  //7행
+			
+			System.out.print("*");
+		}
+System.out.println();
+	}
+
+}
+}
